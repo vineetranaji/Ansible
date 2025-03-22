@@ -1,1 +1,6 @@
+collections:
+  - community.general
+  - amazon.aws
+roles:
+  - geerlingguy.nginx
 
