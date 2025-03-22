@@ -1,1 +1,4 @@
-
+- name: Deploy Web Server
+  hosts: webservers
+  roles:
+    - webserver
