@@ -1,1 +1,6 @@
+- name: Configure All Servers
+  hosts: all
+  become: true
+  roles:
+    - webserver
 
